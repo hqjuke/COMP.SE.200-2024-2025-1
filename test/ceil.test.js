@@ -74,8 +74,8 @@ describe('ceil', () => {
   
     // Handling NaN values
     it('should return NaN when passed NaN', () => {
-      expect(ceil(NaN)).to.be.NaN();  // NaN should return NaN
-      expect(ceil(NaN, 2)).to.be.NaN(); // NaN with precision should also return NaN
+      expect(ceil(NaN)).to.be.NaN;  // NaN should return NaN
+      expect(ceil(NaN, 2)).to.be.NaN; // NaN with precision should also return NaN
     });
   
     // Handling Infinity and -Infinity
