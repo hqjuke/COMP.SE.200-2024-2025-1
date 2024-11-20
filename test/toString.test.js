@@ -1,6 +1,6 @@
 
 import toString from '../src/toString.js';
-import isSymbol from './isSymbol';
+import isSymbol from '../src/isSymbol.js';
 
 describe('toString', () => {
 
