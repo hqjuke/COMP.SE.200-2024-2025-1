@@ -42,9 +42,9 @@ describe('add', () => {
   
     // Addition with NaN
     it('should return NaN when adding NaN', () => {
-      expect(add(NaN, 5)).to.equalNaN();  // NaN + 5 = NaN
-      expect(add(5, NaN)).to.equalNaN();  // 5 + NaN = NaN
-      expect(add(NaN, NaN)).to.equalNaN();  // NaN + NaN = NaN
+      expect(add(NaN, 5)).to.be.NaN();  // NaN + 5 = NaN
+      expect(add(5, NaN)).to.be.NaN();  // 5 + NaN = NaN
+      expect(add(NaN, NaN)).to.be.NaN();  // NaN + NaN = NaN
     });
   
     // Addition with non-numeric values
