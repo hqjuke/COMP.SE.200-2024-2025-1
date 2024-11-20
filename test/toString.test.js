@@ -67,7 +67,7 @@ describe('toString', () => {
     const symbol = Symbol('test');   
     const result = toString(symbol);
 
-    expect(result).toBe(symbol.toString());  // Result should match the symbol's string representation
+    expect(result).to.equal(symbol.toString());  // Result should match the symbol's string representation
   });
 
   // Other objects: handle non-array objects
