@@ -65,7 +65,7 @@ describe('add', () => {
       expect(add(0.1, 0.2)).to.equalCloseTo(0.3, 5);  // 0.1 + 0.2 = 0.3 (with floating point precision tolerance)
       expect(add(0.0001, 0.0002)).to.equalCloseTo(0.0003, 5);  // Small decimals
     });
-  
+    // var precision = 0.01;expect(Math.abs(27.63 - expectedMoney) <= precision).to.equal(true);
     // Adding large negative and large positive numbers
     it('should correctly add large negative and large positive numbers', () => {
       expect(add(-1000000000, 1000000000)).to.equal(0);  // Large positive and negative number sum

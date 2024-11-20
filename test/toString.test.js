@@ -2,6 +2,7 @@ import * as chai from 'chai';
 var expect = chai.expect;
 import toString from '../src/toString.js';
 import isSymbol from '../src/isSymbol.js';
+// lisaa jest tai korvaa
 
 describe('toString', () => {
 
@@ -63,10 +64,9 @@ describe('toString', () => {
 
   // Symbols
   it('should call toString() on symbols and return the result', () => {
-    const symbol = Symbol('test');
-    const symbolToStringSpy = jest.spyOn(symbol, 'toString');
+    const symbol = Symbol('test');   
     const result = toString(symbol);
-    expect(symbolToStringSpy).toHaveBeenCalled();  // Ensures the symbol's toString was called
+
     expect(result).toBe(symbol.toString());  // Result should match the symbol's string representation
   });
 
