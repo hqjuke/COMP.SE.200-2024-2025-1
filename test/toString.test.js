@@ -1,4 +1,5 @@
-
+import * as chai from 'chai';
+var expect = chai.expect;
 import toString from '../src/toString.js';
 import isSymbol from '../src/isSymbol.js';
 

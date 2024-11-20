@@ -1,4 +1,5 @@
-
+import * as chai from 'chai';
+var expect = chai.expect;
 import eq from '../src/eq.js';
 
 describe('eq', () => {

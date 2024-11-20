@@ -1,5 +1,5 @@
 import * as chai from 'chai';
-var except = chai.expect;
+var expect = chai.expect;
 import add from '../src/add.js';
 
 

@@ -1,4 +1,6 @@
 import isObjectLike from '../src/isObjectLike.js';
+import * as chai from 'chai';
+var expect = chai.expect;
 
 describe('isObjectLike', () => {
 
