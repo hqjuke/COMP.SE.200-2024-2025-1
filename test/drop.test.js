@@ -2,7 +2,7 @@ import * as chai from 'chai';
 var expect = chai.expect;
 import drop from '../src/drop.js';
 
-describe('Testing reduce.js', () => {
+describe('Testing drop.js', () => {
 
     it('Should drop elements from an array', () => {
         const result = drop([1,2,3],2)
